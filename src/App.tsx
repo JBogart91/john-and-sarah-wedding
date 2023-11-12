@@ -1,4 +1,6 @@
 import { NavigationBar } from "./components/NavigationBar"
+import { Route } from "wouter";
+
 
 const App = () => (
   <>
@@ -6,9 +8,18 @@ const App = () => (
       <NavigationBar />
     </nav>
     <main>
-      <h1 className="text-3xl font-bold underline text-blue-500">
-        Hello world!
-      </h1>
+      <Route path="/">
+        {() => <div>Home</div>}
+      </Route>
+      <Route path="/our-story">
+        {() => <div>Our Story</div>}
+      </Route>
+      <Route path="/rsvp">
+        {() => <div>RSVP</div>}
+      </Route>
+      <Route path="/contact">
+        {() => <div>Contact Us</div>}
+      </Route>
     </main>
   </>
 )
