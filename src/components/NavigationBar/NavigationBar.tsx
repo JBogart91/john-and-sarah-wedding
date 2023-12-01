@@ -24,7 +24,7 @@ const NavigationBar = (): JSX.Element => {
         {NavigationLinks.map((nav, index) => (
           <li
             key={nav.id}
-            className={`font-poppins font-normal cursor-pointer text-base
+            className={`cursor-pointer text-base
               ${active === nav.link ? 'border-b-2 border-solid border-black' : ''}
               ${index === NavigationLinks.length - 1 ? 'mr-4' : 'mr-6'}`
             }
