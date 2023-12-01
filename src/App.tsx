@@ -1,8 +1,7 @@
-import { NavigationBar } from "./components/NavigationBar"
-import { Route } from "wouter";
+import { NavigationBar } from './components/NavigationBar'
+import { Route } from 'wouter'
 
-
-const App = () => (
+const App = (): JSX.Element => (
   <>
     <nav>
       <NavigationBar />
