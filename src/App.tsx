@@ -4,7 +4,7 @@ import { Route } from 'wouter'
 const App = (): JSX.Element => (
   <>
     <NavigationBar />
-    <main>
+    <main className='m-4'>
       <Route path="/">
         {() => <div>Home</div>}
       </Route>
