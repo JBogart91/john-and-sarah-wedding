@@ -67,7 +67,6 @@ const NavigationBar = (): JSX.Element => {
           </ul>
         </div>
       </div>
-
     </nav>
   )
 }

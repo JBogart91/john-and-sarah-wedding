@@ -3,9 +3,7 @@ import { Route } from 'wouter'
 
 const App = (): JSX.Element => (
   <>
-    <nav>
-      <NavigationBar />
-    </nav>
+    <NavigationBar />
     <main>
       <Route path="/">
         {() => <div>Home</div>}
