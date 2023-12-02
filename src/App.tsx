@@ -1,21 +1,26 @@
 import { NavigationBar } from './components/NavigationBar'
 import { Route } from 'wouter'
 
+import { Contact } from './pages/Contact'
+import { Home } from './pages/Home'
+import { OurStory } from './pages/OurStory'
+import { RSVP } from './pages/RSVP'
+
 const App = (): JSX.Element => (
   <>
     <NavigationBar />
     <main className='m-4'>
       <Route path="/">
-        {() => <div>Home</div>}
+        {() => <Home />}
       </Route>
       <Route path="/our-story">
-        {() => <div>Our Story</div>}
+        {() => <OurStory />}
       </Route>
       <Route path="/rsvp">
-        {() => <div>RSVP</div>}
+        {() => <RSVP />}
       </Route>
       <Route path="/contact">
-        {() => <div>Contact Us</div>}
+        {() => <Contact />}
       </Route>
     </main>
   </>
