@@ -9,7 +9,7 @@ import { RSVP } from './pages/RSVP'
 const App = (): JSX.Element => (
   <>
     <NavigationBar />
-    <main>
+    <main className="max-w-5xl m-auto border-solid border-2 border-grey border-t-0 p-4">
       <Route path="/">
         {() => <Home />}
       </Route>
