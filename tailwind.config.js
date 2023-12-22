@@ -10,7 +10,7 @@ export default {
         splash: "url('./assets/splash.png')"
       },
       fontFamily: {
-        header: 'Oooh Baby'
+        header: 'Nothing You Could Do'
       }
     }
   }

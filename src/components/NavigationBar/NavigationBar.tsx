@@ -20,6 +20,7 @@ const NavigationBar = (): JSX.Element => {
 
   return (
     <nav className="w-full flex py-4 justify-between items-center navbar border-b-2 border-solid">
+      <h1 className="font-header text-2xl text-black pl-6">John & Sarah</h1>
       <ul className="list-none sm:flex hidden justify-end items-center flex-1">
         {NavigationLinks.map((nav, index) => (
           <li
