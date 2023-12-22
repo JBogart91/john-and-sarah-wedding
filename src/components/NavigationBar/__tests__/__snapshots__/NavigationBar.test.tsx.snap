@@ -9,7 +9,7 @@ exports[`NavigationBar renders correctly 1`] = `
         class="w-full flex py-4 justify-between items-center navbar border-b-2 border-solid"
       >
         <h1
-          class="font-header text-2xl text-black pl-6"
+          class="font-header text-2xl text-black pl-6 sm:hidden"
         >
           John & Sarah
         </h1>
@@ -135,7 +135,7 @@ exports[`NavigationBar renders correctly 1`] = `
       class="w-full flex py-4 justify-between items-center navbar border-b-2 border-solid"
     >
       <h1
-        class="font-header text-2xl text-black pl-6"
+        class="font-header text-2xl text-black pl-6 sm:hidden"
       >
         John & Sarah
       </h1>
