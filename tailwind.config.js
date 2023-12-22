@@ -10,7 +10,8 @@ export default {
         splash: "url('./assets/splash.png')"
       },
       fontFamily: {
-        header: 'Nothing You Could Do'
+        header: 'Nothing You Could Do',
+        content: 'Noto Serif JP'
       }
     }
   }

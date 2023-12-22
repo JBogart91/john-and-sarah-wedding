@@ -3,12 +3,16 @@ import { Link } from 'wouter'
 const Home = (): JSX.Element => {
   return (
     <div className="grid">
-      <img src="../src/assets/splash(2).jpeg" />
-      <h1 className="font-header text-5xl sm:text-8xl hidden sm:block absolute text-white">John & Sarah</h1>
+      <div className="mb-4">
+        <img src="../src/assets/splash(2).jpeg" />
+      </div>
       <div>
-        <span className="text-center text-2xl">November 2nd 2024</span>
+        <div className="grid grid-cols-1 divide-y divide-current mb-4">
+          <span className="text-center text-xl pb-1">Sandhole Oak Barn, Cheshire</span>
+          <span className="text-center text-xl">November 2nd 2024</span>
+        </div>
         <Link href={'/rsvp'}>
-          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-1/2">
+          <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full w-full">
             RSVP
           </button>
         </Link>
