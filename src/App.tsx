@@ -1,5 +1,5 @@
 import { NavigationBar } from './components/NavigationBar'
-import { Footer } from './components/Footer'
+// import { Footer } from './components/Footer'
 
 import { Route } from 'wouter'
 
@@ -25,7 +25,7 @@ const App = (): JSX.Element => (
         {() => <Contact />}
       </Route>
     </main>
-    <Footer />
+    {/* <Footer /> */}
   </div>
 )
 
