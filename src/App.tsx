@@ -7,6 +7,7 @@ import { Contact } from './pages/Contact'
 import { Home } from './pages/Home'
 import { OurStory } from './pages/OurStory'
 import { RSVP } from './pages/RSVP'
+import { FAQS } from './pages/FAQS'
 
 const App = (): JSX.Element => (
   <div className="font-content relative h-screen">
@@ -20,6 +21,9 @@ const App = (): JSX.Element => (
       </Route>
       <Route path="/rsvp">
         {() => <RSVP />}
+      </Route>
+      <Route path="/faqs">
+        {() => <FAQS />}
       </Route>
       <Route path="/contact">
         {() => <Contact />}

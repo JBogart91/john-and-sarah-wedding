@@ -21,6 +21,11 @@ const NavigationLinks: NavigationLink[] = [
     title: 'RSVP'
   },
   {
+    id: 'faqs',
+    link: '/faqs',
+    title: 'FAQs'
+  },
+  {
     id: 'contact',
     link: '/contact',
     title: 'Contact Us'
