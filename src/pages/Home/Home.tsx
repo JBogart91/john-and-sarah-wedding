@@ -1,4 +1,5 @@
 import { Link } from 'wouter'
+import { Schedule } from '../../components/Schedule'
 
 const Home = (): JSX.Element => {
   return (
@@ -23,7 +24,10 @@ const Home = (): JSX.Element => {
           </Link>
         </div>
       </div>
-      <div className="row-span-1 mt-4">Schedule for the Day</div>
+      <div className="row-span-1 mt-4">
+        <h2 className="font-header text-2xl text-center mb-2 lg:text-4xl">Schedule for the Day</h2>
+        <Schedule />
+      </div>
       <div className="row-span-1 mt-4">Venue</div>
     </div>
   )
