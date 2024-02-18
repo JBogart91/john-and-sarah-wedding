@@ -1,5 +1,6 @@
 import { Link } from 'wouter'
 import { Schedule } from '../../components/Schedule'
+import splash from '../../assets/IMG_3932.jpeg'
 
 const Home = (): JSX.Element => {
   return (
@@ -7,7 +8,7 @@ const Home = (): JSX.Element => {
       <div className="row-span-1">
         <h1 className="font-header text-6xl text-center mb-2 hidden lg:block">John & Sarah</h1>
         <h2 className="font-header text-6xl text-center mb-4 hidden lg:block">are getting married!</h2>
-        <img src="../src/assets/IMG_3932.jpeg" />
+        <img src={splash} />
       </div>
       <div className="row-span-1 flex flex-col mt-8 text-center">
         <div className="flex flex-col text-center">
