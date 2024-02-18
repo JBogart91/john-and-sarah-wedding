@@ -18,14 +18,16 @@ const Home = (): JSX.Element => {
         <div className="mt-4">
           <div className="mb-2">We&apos;d love for you to join us!</div>
           <Link href={'/rsvp'}>
-            <button className="bg-lime-900 hover:bg-lime-700 text-white font-bold py-2 px-4 rounded-full w-full h-12">
+            <button className="bg-wedding-green hover:bg-lime-900 text-white font-bold py-2 px-4 rounded-full w-full h-12">
               RSVP
             </button>
           </Link>
         </div>
       </div>
-      <div className="row-span-1 mt-4">
-        <h2 className="font-header text-2xl text-center mb-2 lg:text-4xl">Schedule for the Day</h2>
+      <div className="row-span-1 mt-8">
+        <h2 className="font-header text-2xl text-center mb-6 lg:text-4xl underline decoration-1 underline-offset-4">
+          Schedule for the Day
+        </h2>
         <Schedule />
       </div>
       <div className="row-span-1 mt-4">Venue</div>
