@@ -9,7 +9,7 @@ const Home = (): JSX.Element => {
         <h2 className="font-header text-6xl text-center mb-4 hidden lg:block">are getting married!</h2>
         <img src="../src/assets/IMG_3932.jpeg" />
       </div>
-      <div className="row-span-1 flex flex-col mt-4 text-center">
+      <div className="row-span-1 flex flex-col mt-8 text-center">
         <div className="flex flex-col text-center">
           <h1 className="font-header text-3xl mb-2 lg:hidden">John & Sarah</h1>
           <h2 className="font-header text-2xl mb-4 lg:hidden">are getting married!</h2>
@@ -35,7 +35,6 @@ const Home = (): JSX.Element => {
         </h2>
         <Schedule />
       </div>
-      <div className="row-span-1 mt-4">Venue</div>
     </div>
   )
 }
