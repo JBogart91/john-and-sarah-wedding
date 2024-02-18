@@ -1,34 +1,10 @@
 import { Accordion } from '../../components/Accordion'
+import questions from './questions'
 import { useState } from 'react'
-
-interface AccordionItem {
-  key: number
-  title: string
-  data: string
-  isOpen: boolean
-}
+import type { AccordionItem } from './FAQSTypes'
 
 const FAQS = (): JSX.Element => {
-  const [accordions, setAccordions] = useState<AccordionItem[]>([
-    {
-      key: 1,
-      title: 'This is an example question?',
-      data: 'Example answer',
-      isOpen: false
-    },
-    {
-      key: 2,
-      title: 'This is an example question?',
-      data: 'Example answer',
-      isOpen: false
-    },
-    {
-      key: 3,
-      title: 'This is an example question?',
-      data: 'Example answer',
-      isOpen: false
-    }
-  ])
+  const [accordions, setAccordions] = useState<AccordionItem[]>(questions)
 
   const toggleAccordion = (accordionKey: number): void => {
     const updatedAccordions = accordions.map((accord) => {
