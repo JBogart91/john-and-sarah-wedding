@@ -19,7 +19,7 @@ const FAQS = (): JSX.Element => {
   }
 
   return (
-    <div>
+    <main className="max-w-5xl m-auto border-t-0 p-4">
       <h1 className="font-header text-6xl text-center">FAQs</h1>
       <div className="mt-8">
         {accordions.map((accordion) => (
@@ -32,7 +32,7 @@ const FAQS = (): JSX.Element => {
           />
         ))}
       </div>
-    </div>
+    </main>
   )
 }
 

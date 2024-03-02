@@ -10,25 +10,23 @@ import { RSVP } from './pages/RSVP'
 import { FAQS } from './pages/FAQS'
 
 const App = (): JSX.Element => (
-  <div className="font-content relative h-screen">
+  <div className="font-content">
     <NavigationBar />
-    <main className="max-w-5xl m-auto border-t-0 p-4">
-      <Route path="/">
-        {() => <Home />}
-      </Route>
-      <Route path="/our-story">
-        {() => <OurStory />}
-      </Route>
-      <Route path="/rsvp">
+    <Route path="/">
+      {() => <Home />}
+    </Route>
+    <Route path="/our-story">
+      {() => <OurStory />}
+    </Route>
+    <Route path="/rsvp">
         {() => <RSVP />}
-      </Route>
-      <Route path="/faqs">
-        {() => <FAQS />}
-      </Route>
-      <Route path="/contact">
-        {() => <Contact />}
-      </Route>
-    </main>
+    </Route>
+    <Route path="/faqs">
+      {() => <FAQS />}
+    </Route>
+    <Route path="/contact">
+      {() => <Contact />}
+    </Route>
     {/* <Footer /> */}
   </div>
 )
