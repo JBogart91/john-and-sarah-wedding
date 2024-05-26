@@ -2,6 +2,7 @@ import { Accordion } from '../../components/Accordion'
 import questions from './questions'
 import { useState } from 'react'
 import type { AccordionItem } from './FAQSTypes'
+import { Footer } from '../../components/Footer'
 
 const FAQS = (): JSX.Element => {
   const [accordions, setAccordions] = useState<AccordionItem[]>(questions)
@@ -32,6 +33,7 @@ const FAQS = (): JSX.Element => {
           />
         ))}
       </div>
+      <Footer />
     </main>
   )
 }

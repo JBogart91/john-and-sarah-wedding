@@ -11,9 +11,9 @@ const NavigationLinks: NavigationLink[] = [
     title: 'Home'
   },
   {
-    id: 'our-story',
-    link: '/our-story',
-    title: 'Our Story'
+    id: 'details',
+    link: '/details',
+    title: 'Details'
   },
   {
     id: 'rsvp',

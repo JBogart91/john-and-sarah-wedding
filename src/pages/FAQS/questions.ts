@@ -20,15 +20,9 @@ const questions: AccordionItem[] = [
     isOpen: false
   },
   {
-    key: 4,
-    title: 'Is there accomodation at the venue?',
-    data: 'Example answer',
-    isOpen: false
-  },
-  {
     key: 5,
     title: 'What is the dress code for the wedding?',
-    data: 'Example answer',
+    data: 'We would love to see you in your Sunday best! Tuxes, suits, kilts, etc. are all welcome!',
     isOpen: false
   },
   {
