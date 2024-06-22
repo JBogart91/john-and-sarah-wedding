@@ -20,27 +20,9 @@ const questions: AccordionItem[] = [
     isOpen: false
   },
   {
-    key: 5,
-    title: 'What is the dress code for the wedding?',
-    data: 'We would love to see you in your Sunday best! Tuxes, suits, kilts, etc. are all welcome!',
-    isOpen: false
-  },
-  {
     key: 6,
     title: 'Is there parking at the venue?',
-    data: 'Example answer',
-    isOpen: false
-  },
-  {
-    key: 7,
-    title: 'Will the wedding be indoors or outdoors?',
-    data: 'As it is a November wedding, both the ceremony and reception will be indoors! However there will be outdoor space for you to get some fresh air.',
-    isOpen: false
-  },
-  {
-    key: 8,
-    title: 'What type of food will be served at your wedding?',
-    data: 'Example answer',
+    data: 'Yes! There is ample parking at the venue.',
     isOpen: false
   },
   {
@@ -58,18 +40,6 @@ const questions: AccordionItem[] = [
   {
     key: 11,
     title: 'Can I post wedding photos on social media?',
-    data: 'Example answer',
-    isOpen: false
-  },
-  {
-    key: 12,
-    title: 'Is there a wedding registry?',
-    data: 'Example answer',
-    isOpen: false
-  },
-  {
-    key: 13,
-    title: 'I have more questions about your wedding, who can I contact?',
     data: 'Example answer',
     isOpen: false
   }
