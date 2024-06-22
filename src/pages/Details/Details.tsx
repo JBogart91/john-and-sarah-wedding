@@ -26,16 +26,30 @@ const Details = (): JSX.Element => {
       </div>
       <div className="max-w-5xl m-auto border-t-0 p-4">
         <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
-          The Schedule
+          Dress Code
         </h2>
-        <Schedule />
+        <p className="mb-2">We would love to see you in your Sunday best! Tuxes, suits, kilts, dresses etc. are all welcome!</p>
       </div>
       <div className="max-w-5xl m-auto border-t-0 p-4">
         <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
           Accomodation
         </h2>
         <p className="mb-2">There is some accomodation at the venue. Our family and wedding party will get priority for the rooms but there may be spare rooms availble. Please get in touch if you are interested in a room and we&rsquo;ll see what we can do!</p>
-        <p> There is plenty of accomodation local to the venue. Fortunately, the venue&rsquo;s website lists local available accomodation. See the following link:         <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.sandholeoakbarn-weddings.co.uk/accommodation/">Accomodation Guide for Sandhole Oak Barn</a></p>
+        <p className="mb-2"> There is plenty of accomodation local to the venue. Fortunately, the venue&rsquo;s website lists local available accomodation.</p>
+        <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.sandholeoakbarn-weddings.co.uk/accommodation/">Accomodation Guide for Sandhole Oak Barn</a>
+      </div>
+      <div className="max-w-5xl m-auto border-t-0 p-4">
+        <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
+          Wedding Registry
+        </h2>
+        <p className="mb-2">Please do not feel obliged to get us something, you joining us is gift enough! However, we do have a wish list and the link will be found below. We will also have a collection for Great Ormond Steet Hospital on the day if you&apos;d prefer to donate to a charity!</p>
+        <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="">Our Wish list</a>
+      </div>
+      <div className="max-w-5xl m-auto border-t-0 p-4">
+        <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
+          The Schedule
+        </h2>
+        <Schedule />
       </div>
       <Footer />
     </main>
