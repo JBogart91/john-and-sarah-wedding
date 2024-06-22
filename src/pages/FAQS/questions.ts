@@ -4,7 +4,7 @@ const questions: AccordionItem[] = [
   {
     key: 1,
     title: 'What date should I RSVP by?',
-    data: 'Example answer',
+    data: 'Please RSVP by September 2nd 2024!',
     isOpen: false
   },
   {
@@ -20,27 +20,27 @@ const questions: AccordionItem[] = [
     isOpen: false
   },
   {
-    key: 6,
+    key: 4,
     title: 'Is there parking at the venue?',
     data: 'Yes! There is ample parking at the venue.',
     isOpen: false
   },
   {
-    key: 9,
+    key: 5,
     title: 'Will there be meal options for guests with dietary restrictions or allergies?',
     data: 'Ah.. a topic close to our heart! All of the food at the wedding will be gluten free (aside from the bread). However, if you do have a different dietary restriction or allergy please contact us or leave us a note on your RSVP.',
     isOpen: false
   },
   {
-    key: 10,
+    key: 6,
     title: 'Am I allowed to take photos during the ceremony?',
     data: 'We are having an "unplugged" ceremony which means no phones or cameras. The greatest gift that you can give us is being fully present as we say "I do". We have hired a profesional photographer to capture the ceremony for us and we promise to share our photos as soon as we recieve them. After the ceremony, feel free to take as many photos and videos as you would like and share them with us!',
     isOpen: false
   },
   {
-    key: 11,
+    key: 7,
     title: 'Can I post wedding photos on social media?',
-    data: 'Example answer',
+    data: 'We ask for you to be mindful of the professional photographer during the ceremony and put away all devices. Take as many pictures as you like during the reception. We would love to see any you post, however, we do ask you to wait for us to post first on social media!',
     isOpen: false
   }
 ]
