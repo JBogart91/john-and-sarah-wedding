@@ -10,12 +10,12 @@ const Details = (): JSX.Element => {
         </h1>
         <div className="md:grid md:grid-cols-2 gap-4">
           <div className="mb-4">
-            <h3 className="text-center text-xl font-header md:text-4xl mb-4">The When</h3>
+            <h3 className="text-center text-xl font-header md:text-4xl mb-4 underline decoration-1 underline-offset-4">When</h3>
             <p>November 2nd 2024</p>
             <p>Ceremony: 2pm</p>
           </div>
           <div>
-            <h3 className="text-center text-xl font-header md:text-4xl mb-4">The Where</h3>
+            <h3 className="text-center text-xl font-header md:text-4xl mb-4 underline decoration-1 underline-offset-4">Where</h3>
             <p>Sandhole Oak Barn,</p>
             <p>Manchester Road(A34),</p>
             <p>Congleton,</p>
@@ -47,7 +47,7 @@ const Details = (): JSX.Element => {
       </div>
       <div className="max-w-5xl m-auto border-t-0 p-4">
         <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
-          The Schedule
+          Schedule of the Day
         </h2>
         <Schedule />
       </div>
