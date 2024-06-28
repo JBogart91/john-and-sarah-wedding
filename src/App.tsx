@@ -11,8 +11,6 @@ const App = (): JSX.Element => {
   const [match] = useRoute('/')
   const [location] = useLocation()
 
-  console.log(location)
-
   return (
     <div className="font-content">
       { !match ? <NavigationBar /> : null }
