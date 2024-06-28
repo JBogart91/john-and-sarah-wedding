@@ -42,6 +42,12 @@ const questions: AccordionItem[] = [
     title: 'Can I post wedding photos on social media?',
     data: 'We ask for you to be mindful of the professional photographer during the ceremony and put away all devices. Take as many pictures as you like during the reception. We would love to see any you post, however, we do ask you to wait for us to post first on social media!',
     isOpen: false
+  },
+  {
+    key: 8,
+    title: 'I have more questions! How can I get help?',
+    data: 'Please reach out to either of us! Our contact information will be on your invite!',
+    isOpen: false
   }
 ]
 
