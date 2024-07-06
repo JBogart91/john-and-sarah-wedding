@@ -43,7 +43,7 @@ const Details = (): JSX.Element => {
           Wedding Registry
         </h2>
         <p className="mb-2">Please do not feel obliged to get us something, you joining us is gift enough! However, we do have a wish list and the link will be found below. We will also have a collection for Great Ormond Steet Hospital on the day if you&apos;d prefer to donate to a charity!</p>
-        <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="">Our Wish list</a>
+        <a className="underline text-blue-600 hover:text-blue-800 visited:text-purple-600" href="https://www.johnlewis.com/wish-list/QTMNHKT">Our Wish list</a>
       </div>
       <div className="max-w-5xl m-auto border-t-0 p-4">
         <h2 className="font-header text-2xl text-center mb-6 md:text-4xl underline decoration-1 underline-offset-4">
