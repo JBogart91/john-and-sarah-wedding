@@ -34,7 +34,7 @@ const questions: AccordionItem[] = [
   {
     key: 6,
     title: 'Am I allowed to take photos during the ceremony?',
-    data: 'We are having an "unplugged" ceremony which means no phones or cameras. The greatest gift that you can give us is being fully present as we say "I do". We have hired a professional photographer to capture the ceremony for us and we promise to share our photos as soon as we recieve them. After the ceremony, feel free to take as many photos and videos as you would like and share them with us!',
+    data: 'We are having an "unplugged" ceremony which means no phones or cameras. The greatest gift that you can give us is being fully present as we say "I do". We have hired a professional photographer to capture the ceremony for us and we promise to share our photos as soon as we receive them. After the ceremony, feel free to take as many photos and videos as you would like and share them with us!',
     isOpen: false
   },
   {
